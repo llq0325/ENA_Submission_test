@@ -1,0 +1,10 @@
+STUDY   PRJEB38928
+SAMPLE   ERS4688557
+ASSEMBLYNAME   Sus_cebifrons.v1
+ASSEMBLY_TYPE isolate
+COVERAGE   77
+PROGRAM   Supernova
+PLATFORM   Illumina
+MINGAPLENGTH   100
+MOLECULETYPE   genomic DNA
+FASTA   sus_cebifrons.v1.rmN.fa.gz
