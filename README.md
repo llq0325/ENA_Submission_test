@@ -15,3 +15,11 @@ WGS data with PE reads will be submitted. we have 44 samples with 826 PE fastq f
 1.  make_md5.sh 
 2.  Run_make_md5.sh
 3.  make_spreadlist_test.sh
+
+## Submit data to ENA with webin-cli
+1. download [the latest webin-cli](https://github.com/enasequence/webin-cli/releases/tag/v3.7.0)
+2. validate and submit the file
+```shell
+java -jar webin-cli-3.7.0.jar -validate -context=genome -manifest=manifest.txt -userName=yourusername -password=yourpassword
+java -jar webin-cli-3.7.0.jar -submit -context=genome -manifest=manifest.txt -userName=yourusername -password=yourpassword
+```
